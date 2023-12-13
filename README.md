@@ -13,12 +13,19 @@
 #### Procedimento para Configuração do Banco de Dados
 Execute as instruções SQL abaixo para realizar a configuração do banco de dados:
 
+<h4> 1. Inicia a criação do banco de dados: <h4>
+
 ````
-create database db_example; -- Inicia a criação do banco de dados
+create database banco_de_dados;
 ````
+
+<h4> 2. Estabelece um novo usuário: <h4>
+
 ````
-create user 'springuser'@'%' identified by 'ThePassword'; -- Estabelece um novo usuário
+create user 'springuser'@'%' identified by 'ThePassword';
 ````
+<h4> 3. Concede todos os privilégios ao usuário no recém-criado banco de dados: <h4>
+
 ````
-grant all on db_example.* to 'springuser'@'%'; -- Concede todos os privilégios ao usuário no recém-criado banco de dados
+grant all on db_example.* to 'springuser'@'%'; 
 ````
