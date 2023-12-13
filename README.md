@@ -4,7 +4,6 @@
 - Utilize um editor de texto ou IDE de sua preferência.
 - Java na versão 17 ou posterior é obrigatório.
 - Certifique-se de ter Gradle 7.5+ ou Maven 3.5+ instalados.
-<br>
 
 #### A importação do código para a IDE pode ser feita nos seguintes ambientes:
 
